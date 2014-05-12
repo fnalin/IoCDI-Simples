@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title | Demo.IoCDI.Simples.UI</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    @Html.Partial("_waitModal")
+    @Html.Partial("_mnuPrincipal")
+    <div class="container body-content">
+        <div class="body-principal">
+            @RenderBody()
+        </div>
+        <hr />
+        <footer class="text-center">
+            <p>&copy; @DateTime.Now.Year - <a href="http://fabianonalin.net.br" target="_blank">FabianoNalin.net.br</a></p>
+        </footer>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <script src="~/Scripts/core.demo.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

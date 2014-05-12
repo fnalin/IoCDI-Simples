@@ -1,0 +1,129 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.IoCDI.Simples.Dominio", "Demo.IoCDI.Simples.Dominio\Demo.IoCDI.Simples.Dominio.csproj", "{03D661A0-8C74-4E4C-B2CE-7B54CBA06B54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{81404935-A692-40F8-9B5C-6DEB0096CFAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{613B47D9-4EAC-4105-B370-49FEBB3E964C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.IoCDI.Simples.Data.EF", "Demo.IoCDI.Simples.Data.EF\Demo.IoCDI.Simples.Data.EF.csproj", "{A39B8219-0852-462C-BB39-519761B8A5A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.IoCDI.Simples.Data.ADO", "Demo.IoCDI.Simples.Data.ADO\Demo.IoCDI.Simples.Data.ADO.csproj", "{E3406A47-42C0-4565-A658-5213AE1D1949}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{85887A45-E41B-43E8-8E31-509FE751F43E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.IoCDI.Simples.Infra", "Demo.IoCDI.Simples.Infra\Demo.IoCDI.Simples.Infra.csproj", "{8622A634-E7BA-475E-98A7-5C561F1BBEB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserInterface", "UserInterface", "{60406566-69C4-430D-8205-E4B6E33DE39E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.IoCDI.Simples.UI.ConsoleUI", "Demo.IoCDI.Simples.UI.ConsoleUI\Demo.IoCDI.Simples.UI.ConsoleUI.csproj", "{98133A4B-F050-472A-B13A-C7B389564105}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.IoCDI.Simples.Data.NHibernate", "Demo.IoCDI.Simples.Data.NHibernate\Demo.IoCDI.Simples.Data.NHibernate.csproj", "{2B683581-C93E-469B-B69C-8A9D4C6187F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CFAD02DA-3110-4E5E-99ED-FA619A42C2F0}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Teste", "Teste", "{6C979DA3-BE34-48DF-A799-7E4E4DC752CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.IoCDI.Simples.UI.AspNetMVC", "Demo.IoCDI.Simples.UI.AspNetMVC\Demo.IoCDI.Simples.UI.AspNetMVC.csproj", "{5FBCC9E0-F2BF-44E6-8D2C-7CE67879F748}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.IoCDI.Simples.Test", "Demo.IoCDI.Simples.Test\Demo.IoCDI.Simples.Test.csproj", "{80126622-25A2-4674-AA9F-E812F3B1DB61}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://fnalin.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Demo.IoCDI.Simples.Data.ADO\\Demo.IoCDI.Simples.Data.ADO.csproj
+		SccProjectTopLevelParentUniqueName1 = Demo.IoCDI.Simples.sln
+		SccProjectName1 = Demo.IoCDI.Simples.Data.ADO
+		SccLocalPath1 = Demo.IoCDI.Simples.Data.ADO
+		SccProjectUniqueName2 = Demo.IoCDI.Simples.Data.EF\\Demo.IoCDI.Simples.Data.EF.csproj
+		SccProjectTopLevelParentUniqueName2 = Demo.IoCDI.Simples.sln
+		SccProjectName2 = Demo.IoCDI.Simples.Data.EF
+		SccLocalPath2 = Demo.IoCDI.Simples.Data.EF
+		SccProjectUniqueName3 = Demo.IoCDI.Simples.Data.NHibernate\\Demo.IoCDI.Simples.Data.NHibernate.csproj
+		SccProjectTopLevelParentUniqueName3 = Demo.IoCDI.Simples.sln
+		SccProjectName3 = Demo.IoCDI.Simples.Data.NHibernate
+		SccLocalPath3 = Demo.IoCDI.Simples.Data.NHibernate
+		SccProjectUniqueName4 = Demo.IoCDI.Simples.Dominio\\Demo.IoCDI.Simples.Dominio.csproj
+		SccProjectTopLevelParentUniqueName4 = Demo.IoCDI.Simples.sln
+		SccProjectName4 = Demo.IoCDI.Simples.Dominio
+		SccLocalPath4 = Demo.IoCDI.Simples.Dominio
+		SccProjectUniqueName5 = Demo.IoCDI.Simples.Infra\\Demo.IoCDI.Simples.Infra.csproj
+		SccProjectTopLevelParentUniqueName5 = Demo.IoCDI.Simples.sln
+		SccProjectName5 = Demo.IoCDI.Simples.Infra
+		SccLocalPath5 = Demo.IoCDI.Simples.Infra
+		SccProjectUniqueName6 = Demo.IoCDI.Simples.UI.ConsoleUI\\Demo.IoCDI.Simples.UI.ConsoleUI.csproj
+		SccProjectTopLevelParentUniqueName6 = Demo.IoCDI.Simples.sln
+		SccProjectName6 = Demo.IoCDI.Simples.UI.ConsoleUI
+		SccLocalPath6 = Demo.IoCDI.Simples.UI.ConsoleUI
+		SccProjectUniqueName7 = Demo.IoCDI.Simples.UI.AspNetMVC\\Demo.IoCDI.Simples.UI.AspNetMVC.csproj
+		SccProjectTopLevelParentUniqueName7 = Demo.IoCDI.Simples.sln
+		SccProjectName7 = Demo.IoCDI.Simples.UI.AspNetMVC
+		SccLocalPath7 = Demo.IoCDI.Simples.UI.AspNetMVC
+		SccProjectUniqueName8 = Demo.IoCDI.Simples.Test\\Demo.IoCDI.Simples.Test.csproj
+		SccProjectTopLevelParentUniqueName8 = Demo.IoCDI.Simples.sln
+		SccProjectName8 = Demo.IoCDI.Simples.Test
+		SccLocalPath8 = Demo.IoCDI.Simples.Test
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03D661A0-8C74-4E4C-B2CE-7B54CBA06B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03D661A0-8C74-4E4C-B2CE-7B54CBA06B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03D661A0-8C74-4E4C-B2CE-7B54CBA06B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03D661A0-8C74-4E4C-B2CE-7B54CBA06B54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A39B8219-0852-462C-BB39-519761B8A5A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A39B8219-0852-462C-BB39-519761B8A5A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A39B8219-0852-462C-BB39-519761B8A5A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A39B8219-0852-462C-BB39-519761B8A5A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3406A47-42C0-4565-A658-5213AE1D1949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3406A47-42C0-4565-A658-5213AE1D1949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3406A47-42C0-4565-A658-5213AE1D1949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3406A47-42C0-4565-A658-5213AE1D1949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8622A634-E7BA-475E-98A7-5C561F1BBEB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8622A634-E7BA-475E-98A7-5C561F1BBEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8622A634-E7BA-475E-98A7-5C561F1BBEB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8622A634-E7BA-475E-98A7-5C561F1BBEB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98133A4B-F050-472A-B13A-C7B389564105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98133A4B-F050-472A-B13A-C7B389564105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98133A4B-F050-472A-B13A-C7B389564105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98133A4B-F050-472A-B13A-C7B389564105}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B683581-C93E-469B-B69C-8A9D4C6187F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B683581-C93E-469B-B69C-8A9D4C6187F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B683581-C93E-469B-B69C-8A9D4C6187F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B683581-C93E-469B-B69C-8A9D4C6187F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FBCC9E0-F2BF-44E6-8D2C-7CE67879F748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FBCC9E0-F2BF-44E6-8D2C-7CE67879F748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FBCC9E0-F2BF-44E6-8D2C-7CE67879F748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FBCC9E0-F2BF-44E6-8D2C-7CE67879F748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80126622-25A2-4674-AA9F-E812F3B1DB61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80126622-25A2-4674-AA9F-E812F3B1DB61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80126622-25A2-4674-AA9F-E812F3B1DB61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80126622-25A2-4674-AA9F-E812F3B1DB61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03D661A0-8C74-4E4C-B2CE-7B54CBA06B54} = {81404935-A692-40F8-9B5C-6DEB0096CFAB}
+		{A39B8219-0852-462C-BB39-519761B8A5A0} = {613B47D9-4EAC-4105-B370-49FEBB3E964C}
+		{E3406A47-42C0-4565-A658-5213AE1D1949} = {613B47D9-4EAC-4105-B370-49FEBB3E964C}
+		{2B683581-C93E-469B-B69C-8A9D4C6187F6} = {613B47D9-4EAC-4105-B370-49FEBB3E964C}
+		{8622A634-E7BA-475E-98A7-5C561F1BBEB8} = {85887A45-E41B-43E8-8E31-509FE751F43E}
+		{98133A4B-F050-472A-B13A-C7B389564105} = {60406566-69C4-430D-8205-E4B6E33DE39E}
+		{5FBCC9E0-F2BF-44E6-8D2C-7CE67879F748} = {60406566-69C4-430D-8205-E4B6E33DE39E}
+		{80126622-25A2-4674-AA9F-E812F3B1DB61} = {6C979DA3-BE34-48DF-A799-7E4E4DC752CC}
+	EndGlobalSection
+EndGlobal

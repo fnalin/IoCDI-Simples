@@ -1,0 +1,47 @@
+﻿@using Demo.IoCDI.Simples.Dominio;
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>Listagem</h2>
+<br />
+<div class="row well well-sm">
+    <div class="col-md-2">
+        <p style="margin-top:6px;">
+            Selecione a tecnologia:
+        </p>
+    </div>
+    <div class="col-md-4">
+        <select class="form-control controle-block" id="tipoTecDDL">
+            <option value="ADO" selected="selected">ADO.net</option>
+            <option value="EF">Entity Framework</option>
+            <option value="NHibernate">NHibernate</option>
+        </select>
+    </div>
+</div>
+<table class="table table-hover table-striped">
+    <thead>
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>
+                Nome
+            </th>
+            <th style="width:40%;">
+                Descrição
+            </th>
+            <th>
+                Preço
+            </th>
+            <th>
+                Categoria
+            </th>
+        </tr>
+    </thead>
+    <tbody id="ListagemProd"></tbody>
+</table>
+@section scripts {
+    <script src="~/Scripts/core.demo.lista.js"></script>
+}

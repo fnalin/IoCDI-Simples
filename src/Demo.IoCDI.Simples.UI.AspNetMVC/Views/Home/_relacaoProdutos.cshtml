@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Demo.IoCDI.Simples.Dominio.Entidades.Produto>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @item.ID.ToString("000")
+        </td>
+        <td>
+            @item.Nome
+        </td>
+        <td style="width:40%;">
+            @item.Descricao
+        </td>
+        <td>
+            @item.Preco.ToString("c2")
+        </td>
+        <td>
+            @item.Categoria
+            </td>
+        </tr>
+}
